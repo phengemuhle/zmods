@@ -1,0 +1,51 @@
+/* HSL */
+$color1: hsla(230%, 7%, 84%, 1);
+$color2: hsla(198%, 37%, 46%, 1);
+$color3: hsla(352%, 90%, 39%, 1);
+$color4: hsla(210%, 3%, 15%, 1);
+$color5: hsla(340%, 100%, 99%, 1);
+
+/* RGB */
+$color1: rgba(211, 212, 217, 1);
+$color2: rgba(75, 136, 162, 1);
+$color3: rgba(187, 10, 33, 1);
+$color4: rgba(37, 38, 39, 1);
+$color5: rgba(255, 249, 251, 1);
+
+.fuckall{
+  color: black ;
+}
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+  }
+  
+  .headerCont {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  

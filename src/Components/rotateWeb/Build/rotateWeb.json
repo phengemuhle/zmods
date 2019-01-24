@@ -1,0 +1,14 @@
+{
+"companyName": "DefaultCompany",
+"productName": "RotateUnity",
+"dataUrl": "rotateWeb.data.unityweb",
+"wasmCodeUrl": "rotateWeb.wasm.code.unityweb",
+"wasmFrameworkUrl": "rotateWeb.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "rotateWeb.jpg",
+"splashScreenStyle": "Light",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"}
+}

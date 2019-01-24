@@ -1,25 +1,31 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { Link } from "react-router-dom"
+import { Route } from "react-router-dom"
+import Scroll from "./Components/Scroll"
+import Header from "./Components/Header"
+import Rotate from "./Components/Rotate"
+
+
 
 class App extends Component {
+  constructor(props){
+    super();
+    this.state = {
+
+    }
+  }
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <Scroll/>
+        <Header/>
+        <Rotate/>
+        <div className="topnav">
+            <Link to={`/`}> <button className="backButton" >Back</button> </Link>
+            <Link to={`/design`}> <button className="addMovieButton" >Add New Movie Info</button> </Link>
+        </div>
       </div>
     );
   }
